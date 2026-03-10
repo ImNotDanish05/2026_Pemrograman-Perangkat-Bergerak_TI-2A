@@ -11,7 +11,8 @@ void main() {
   String pemilik = 'Mbok Yem'; // Tipe String untuk nama
   String alamat =
       'JL. Prof. Soedarto, SH, Tembalang'; // Tipe String untuk alamat
-  bool statusBuka = true; // Tipe bool: true = Buka, false = Tutup
+  bool statusBuka; // Tipe bool: true = Buka, false = Tutup
+  statusBuka = true;
 
   // --- Daftar Menu Makanan (wajib menggunakan Map) ---
   // Key: nama makanan (String), Value: harga dalam ribuan rupiah (int)
